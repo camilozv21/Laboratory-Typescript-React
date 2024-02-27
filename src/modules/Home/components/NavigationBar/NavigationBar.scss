@@ -1,0 +1,11 @@
+#navigation-bar .navlink {
+  color: #3bb850;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #ff6f61;
+  }
+}

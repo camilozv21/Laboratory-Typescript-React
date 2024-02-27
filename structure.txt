@@ -1,0 +1,35 @@
+/laboratory_typescriptreact
+├── /node_modules
+├── /public
+│   ├── index.html
+│   └── favicon.ico
+├── /src
+│   ├── /modules
+│   │   ├── /home
+│   │   │   ├── /components
+│   │   │   │   ├── /Button
+│   │   │   │   │   ├── Button.tsx
+│   │   │   │   │   └── Button.scss
+│   │   │   │   └── /Navbar
+│   │   │   │       ├── Navbar.tsx
+│   │   │   │       └── Navbar.scss
+│   │   │   ├── /views
+│   │   │   │   ├── HomePage.tsx
+│   │   │   │   └── HomePage.scss
+│   │   │   └── /routes
+│   │   │       └── HomeRoutes.tsx
+│   │   └── /about
+│   │       ├── /views
+│   │       │   ├── AboutPage.tsx
+│   │       │   └── AboutPage.scss
+│   │       └── /routes
+│   │           └── AboutRoutes.tsx
+│   ├── /assets
+│   │   └── /images
+│   ├── /contexts
+│   │   └── MyContext.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── tsconfig.json
+└── vite.config.ts

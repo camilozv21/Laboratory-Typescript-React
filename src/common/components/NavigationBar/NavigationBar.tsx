@@ -1,7 +1,6 @@
 import "./NavigationBar.scss";
 import { NavLink } from "react-router-dom";
-
-const logo = "https://rick-and-morty-api-woad.vercel.app/assets/img/logo.png";
+import logo from "../../assets/logo.png";
 
 export const NavigationBar = () => {
   return (

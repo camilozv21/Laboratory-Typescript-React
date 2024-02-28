@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 
-const Home = lazy(() => import("../views/Home"));
+const Home = lazy(() => import("../modules/Home/views/Home"));
 
 export const HomeRoutes = () => {
   return (

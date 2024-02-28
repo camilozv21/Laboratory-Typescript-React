@@ -9,3 +9,35 @@
     color: #ff6f61;
   }
 }
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  box-shadow: 0 0 10px 0 rgba(23, 206, 38, 0.829);
+  animation: particle 2s infinite;
+}
+  
+header {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes particle {
+  0% {
+    box-shadow: 10px 10px 10px 0px rgba(23, 206, 38, 0.829);
+  }
+  50% {
+    box-shadow: 12px 12px 12px 0px rgba(23, 206, 38, 0.829);
+  }
+  100% {
+    box-shadow: 10px 10px 10px 0px rgba(23, 206, 38, 0.829);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .custom-navbar {
+    flex-flow: row nowrap;
+  }
+}

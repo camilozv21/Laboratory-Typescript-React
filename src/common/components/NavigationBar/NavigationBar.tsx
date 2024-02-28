@@ -4,8 +4,8 @@ import logo from "../../assets/logo.png";
 
 export const NavigationBar = () => {
   return (
-    <>
-      <nav className="d-flex justify-content-between navbar" id="navigation-bar">
+    <header>
+      <nav className="custom-navbar" id="navigation-bar">
         <div>
           <NavLink to="/" className="btn btn-link navlink">
             <img src={logo} alt="logo" className="w-25" />
@@ -20,6 +20,6 @@ export const NavigationBar = () => {
           </NavLink>
         </div>
       </nav>
-    </>
+    </header>
   )
 }

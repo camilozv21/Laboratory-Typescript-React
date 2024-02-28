@@ -5,8 +5,10 @@ export const PrincipalComponent = () => {
   return (
     <>
       <div className="container my-2 pb-5">
-        <h1 className="principal-title">Rick & Morty adventures</h1>
+        <h1 className="principal-title my-4">Rick & Morty adventures</h1>
         <CarouselComponent />
+        <hr />
+        <h2 className="pt-2">Álbum de recuerdos</h2>
       </div>
     </>
   )

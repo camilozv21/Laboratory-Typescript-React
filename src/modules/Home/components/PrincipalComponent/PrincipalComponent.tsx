@@ -8,7 +8,7 @@ export const PrincipalComponent = () => {
         <h1 className="principal-title my-4">Rick & Morty adventures</h1>
         <CarouselComponent />
         <hr />
-        <h2 className="pt-2">Álbum de recuerdos</h2>
+        <h2 className="pt-2">Scrapbooking album</h2>
       </div>
     </>
   )

@@ -15,7 +15,7 @@ export const NavigationBar = () => {
           <NavLink to="/rickandmorty" className="btn btn-link navlink">
             Rick and Morty
           </NavLink>
-          <NavLink to="/adventure" className="btn btn-link navlink">
+          <NavLink to="/scrapbooking" className="btn btn-link navlink">
             Andventure Tickets
           </NavLink>
         </div>

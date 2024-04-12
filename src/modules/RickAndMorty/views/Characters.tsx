@@ -1,8 +1,7 @@
 import { CardCharacter } from "../components/CardCharacter"
 import "./Characters.scss"
 
-export const Characters = () => {
-
+const Characters = () => {
 
   return (
     <>
@@ -11,3 +10,5 @@ export const Characters = () => {
     </>
   )
 }
+
+export default Characters
